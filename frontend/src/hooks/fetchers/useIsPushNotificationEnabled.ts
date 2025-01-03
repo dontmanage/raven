@@ -1,4 +1,4 @@
-import { useDontManageGetCall } from 'dontmanage-react-sdk'
+import { useDontManageGetCall } from 'frappe-react-sdk'
 
 const useIsPushNotificationEnabled = () => {
 

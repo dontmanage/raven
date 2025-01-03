@@ -3,7 +3,7 @@ import { FileMessage, Message } from '../../../../../../../types/Messaging/Messa
 import { useContext } from 'react'
 import { UserContext } from '@/utils/auth/UserProvider'
 import { BiBookmarkMinus, BiBookmarkPlus, BiCopy, BiDownload, BiLink, BiPaperclip, BiTrash } from 'react-icons/bi'
-import { DontManageConfig, DontManageContext } from 'dontmanage-react-sdk'
+import { DontManageConfig, DontManageContext } from 'frappe-react-sdk'
 import { useMessageCopy } from './useMessageCopy'
 import { RetractVote } from './RetractVote'
 import { toast } from 'sonner'

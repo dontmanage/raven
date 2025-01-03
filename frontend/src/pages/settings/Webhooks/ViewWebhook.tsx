@@ -1,6 +1,6 @@
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"
 import { FullPageLoader } from "@/components/layout/Loaders/FullPageLoader"
-import { useDontManageGetDoc } from "dontmanage-react-sdk"
+import { useDontManageGetDoc } from "frappe-react-sdk"
 import { useParams } from "react-router-dom"
 import { RavenWebhook } from "@/types/RavenIntegrations/RavenWebhook"
 import { ViewWebhookPage } from "@/components/feature/integrations/webhooks/ViewWebhookPage"

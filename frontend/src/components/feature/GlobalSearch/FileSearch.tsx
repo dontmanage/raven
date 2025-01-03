@@ -1,5 +1,5 @@
 import { BiSearch } from 'react-icons/bi'
-import { useDontManageGetCall } from 'dontmanage-react-sdk'
+import { useDontManageGetCall } from 'frappe-react-sdk'
 import { useState, useContext } from 'react'
 import { useDebounce } from '../../../hooks/useDebounce'
 import { GetFileSearchResult } from '../../../../../types/Search/Search'

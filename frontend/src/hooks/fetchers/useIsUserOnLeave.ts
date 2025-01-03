@@ -1,4 +1,4 @@
-import { useDontManageGetCall } from "dontmanage-react-sdk"
+import { useDontManageGetCall } from "frappe-react-sdk"
 import useRavenSettings from "./useRavenSettings"
 
 const useIsUserOnLeave = (user: string) => {

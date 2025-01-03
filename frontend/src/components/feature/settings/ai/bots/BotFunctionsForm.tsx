@@ -6,7 +6,7 @@ import { Link as RouterLink } from 'react-router-dom'
 import { useFieldArray, useFormContext } from 'react-hook-form'
 import { BiTrashAlt } from 'react-icons/bi'
 import LinkField from '@/components/common/LinkField/LinkField'
-import { DontManageConfig, DontManageContext } from 'dontmanage-react-sdk'
+import { DontManageConfig, DontManageContext } from 'frappe-react-sdk'
 
 type Props = {}
 

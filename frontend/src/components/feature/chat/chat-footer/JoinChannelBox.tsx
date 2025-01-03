@@ -1,6 +1,6 @@
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"
 import { ChannelListItem } from "@/utils/channel/ChannelListProvider"
-import { useDontManageCreateDoc, useSWRConfig } from "dontmanage-react-sdk"
+import { useDontManageCreateDoc, useSWRConfig } from "frappe-react-sdk"
 import { Box, Flex, Text, Button } from "@radix-ui/themes"
 import { Loader } from "@/components/common/Loader"
 import { ChannelMembers } from "@/hooks/fetchers/useFetchChannelMembers"

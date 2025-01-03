@@ -1,4 +1,4 @@
-import { useDontManageDocTypeEventListener, useDontManageGetCall, useSWRConfig } from "dontmanage-react-sdk";
+import { useDontManageDocTypeEventListener, useDontManageGetCall, useSWRConfig } from "frappe-react-sdk";
 import { PropsWithChildren, createContext, useEffect, useMemo, useState } from "react";
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner";
 import { Box, Flex, Link, Text } from "@radix-ui/themes";

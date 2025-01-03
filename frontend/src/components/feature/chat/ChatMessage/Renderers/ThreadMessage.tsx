@@ -1,10 +1,10 @@
 import { Link, useParams } from "react-router-dom"
 import { Message } from "../../../../../../../types/Messaging/Message"
 import { Button, Flex, Text } from "@radix-ui/themes"
-import { useDontManageGetDocCount } from "dontmanage-react-sdk"
+import { useDontManageGetDocCount } from "frappe-react-sdk"
 import { RavenMessage } from "@/types/RavenMessaging/RavenMessage"
-import { useDontManageDocumentEventListener } from "dontmanage-react-sdk"
-import { useDontManageEventListener } from "dontmanage-react-sdk"
+import { useDontManageDocumentEventListener } from "frappe-react-sdk"
+import { useDontManageEventListener } from "frappe-react-sdk"
 
 export const ThreadMessage = ({ thread }: { thread: Message }) => {
 

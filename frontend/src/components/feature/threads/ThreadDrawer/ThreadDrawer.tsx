@@ -1,7 +1,7 @@
 import { Box, Flex } from '@radix-ui/themes'
 import { useParams } from 'react-router-dom'
 import { ThreadMessages } from './ThreadMessages'
-import { useDontManageGetDoc } from 'dontmanage-react-sdk'
+import { useDontManageGetDoc } from 'frappe-react-sdk'
 import { ErrorBanner } from '@/components/layout/AlertBanner/ErrorBanner'
 import { FullPageLoader } from '@/components/layout/Loaders/FullPageLoader'
 import { ThreadHeader } from './ThreadHeader'

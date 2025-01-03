@@ -1,5 +1,5 @@
 import { BiSearch } from 'react-icons/bi'
-import { useDontManageGetCall } from 'dontmanage-react-sdk'
+import { useDontManageGetCall } from 'frappe-react-sdk'
 import { useContext, useState, useMemo } from 'react'
 import { useDebounce } from '../../../hooks/useDebounce'
 import { ErrorBanner } from '../../layout/AlertBanner/ErrorBanner'

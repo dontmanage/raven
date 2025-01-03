@@ -1,4 +1,4 @@
-import { useDontManageUpdateDoc } from "dontmanage-react-sdk"
+import { useDontManageUpdateDoc } from "frappe-react-sdk"
 import { ChangeEvent, useCallback } from "react"
 import { Controller, FormProvider, useForm } from "react-hook-form"
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"

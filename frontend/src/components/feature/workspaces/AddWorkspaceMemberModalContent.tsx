@@ -1,5 +1,5 @@
 import { Controller, FormProvider, useForm } from 'react-hook-form'
-import { useDontManagePostCall, useSWRConfig } from 'dontmanage-react-sdk'
+import { useDontManagePostCall, useSWRConfig } from 'frappe-react-sdk'
 import { ErrorBanner } from '@/components/layout/AlertBanner/ErrorBanner'
 import { Loader } from '@/components/common/Loader'
 import { Box, Button, Dialog, Flex } from '@radix-ui/themes'

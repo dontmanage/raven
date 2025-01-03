@@ -5,7 +5,7 @@ import { Flex, Box, TextField, Select, Grid, TextArea } from "@radix-ui/themes"
 import { useContext } from "react"
 import { Controller, useFormContext } from "react-hook-form"
 import { ChannelItem } from "../../integrations/webhooks/WebhookForm"
-import { useDontManageGetDocList } from "dontmanage-react-sdk"
+import { useDontManageGetDocList } from "frappe-react-sdk"
 import { Stack } from "@/components/layout/Stack"
 import ServerScriptNotEnabledCallout from "./ServerScriptNotEnabledForm"
 

@@ -1,7 +1,7 @@
 import { Loader } from '@/components/common/Loader'
 import { Text } from '@radix-ui/themes'
 import clsx from 'clsx'
-import { useDontManageEventListener } from 'dontmanage-react-sdk'
+import { useDontManageEventListener } from 'frappe-react-sdk'
 import { useEffect, useState } from 'react'
 
 type Props = {

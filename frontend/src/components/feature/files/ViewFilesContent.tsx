@@ -1,6 +1,6 @@
 import { useDebounce } from "@/hooks/useDebounce"
 import { usePagination } from "@/hooks/usePagination"
-import { useDontManageGetCall } from "dontmanage-react-sdk"
+import { useDontManageGetCall } from "frappe-react-sdk"
 import { ChangeEvent, useState } from "react"
 import { Box, Dialog, Flex, Heading, IconButton, Select, Text, TextField } from "@radix-ui/themes"
 import { BiSearch } from "react-icons/bi"

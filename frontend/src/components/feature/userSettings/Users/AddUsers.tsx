@@ -1,7 +1,7 @@
 import { useDebounce } from "@/hooks/useDebounce"
 import { usePaginationWithDoctype } from "@/hooks/usePagination"
 import { User } from "@/types/Core/User"
-import { Filter, useDontManageGetDocList, useDontManagePostCall, useSWRConfig } from "dontmanage-react-sdk"
+import { Filter, useDontManageGetDocList, useDontManagePostCall, useSWRConfig } from "frappe-react-sdk"
 import { ChangeEvent, useContext, useState } from "react"
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"
 import { TableLoader } from "@/components/layout/Loaders/TableLoader"

@@ -1,4 +1,4 @@
-import { useDontManagePostCall } from "dontmanage-react-sdk"
+import { useDontManagePostCall } from "frappe-react-sdk"
 import { Accept } from "react-dropzone"
 import { useState } from "react"
 import { AlertDialog, Box, Dialog, Flex, IconButton, Tooltip } from "@radix-ui/themes"

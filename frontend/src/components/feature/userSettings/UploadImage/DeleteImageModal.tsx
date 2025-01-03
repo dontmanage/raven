@@ -1,4 +1,4 @@
-import { useDontManagePostCall } from 'dontmanage-react-sdk'
+import { useDontManagePostCall } from 'frappe-react-sdk'
 import { toast } from 'sonner'
 import { AlertDialog, Button, Flex, Text } from '@radix-ui/themes'
 import { ErrorBanner } from '@/components/layout/AlertBanner/ErrorBanner'

@@ -1,4 +1,4 @@
-import { useDontManagePostCall } from 'dontmanage-react-sdk'
+import { useDontManagePostCall } from 'frappe-react-sdk'
 import { toast } from 'sonner'
 import { MdWatchLater } from 'react-icons/md'
 import { FaCircleDot, FaCircleMinus } from 'react-icons/fa6'

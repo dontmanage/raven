@@ -3788,9 +3788,9 @@ dontmanage-js-sdk@^1.7.0:
   dependencies:
     axios "^1.7.4"
 
-dontmanage-react-sdk@^1.9.0:
+frappe-react-sdk@^1.9.0:
   version "1.9.0"
-  resolved "https://registry.yarnpkg.com/dontmanage-react-sdk/-/dontmanage-react-sdk-1.9.0.tgz#d0502ca5ee5e43fe0551d4d3e1657f017a2685dd"
+  resolved "https://registry.yarnpkg.com/frappe-react-sdk/-/frappe-react-sdk-1.9.0.tgz#d0502ca5ee5e43fe0551d4d3e1657f017a2685dd"
   integrity sha512-ZeUCv8iyo9uSAY/VN/kcUVsRVW3ut2D1/ws6gEfi6V9Me7LdpKL9ICL9yBiEM2tTxh6BoiURaQ8xMeVZqt/oMQ==
   dependencies:
     dontmanage-js-sdk "^1.7.0"

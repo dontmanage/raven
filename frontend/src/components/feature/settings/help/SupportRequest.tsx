@@ -3,7 +3,7 @@ import { Box, Button, Dialog, Flex, Link, RadioCards, Text, TextArea, TextField 
 import { Controller, useForm } from "react-hook-form"
 import { MdOutlineMessage, MdOutlineQuestionMark } from "react-icons/md";
 import clsx from "clsx";
-import { useDontManagePostCall } from "dontmanage-react-sdk";
+import { useDontManagePostCall } from "frappe-react-sdk";
 import { toast } from "sonner";
 import { BiBug } from "react-icons/bi";
 import { ErrorText, Label } from "@/components/common/Form"

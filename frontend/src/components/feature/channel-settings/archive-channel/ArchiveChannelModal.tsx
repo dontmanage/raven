@@ -1,4 +1,4 @@
-import { useDontManageUpdateDoc } from 'dontmanage-react-sdk'
+import { useDontManageUpdateDoc } from 'frappe-react-sdk'
 import { ErrorBanner } from '@/components/layout/AlertBanner/ErrorBanner'
 import { useNavigate } from 'react-router-dom'
 import { ChannelListItem } from '@/utils/channel/ChannelListProvider'

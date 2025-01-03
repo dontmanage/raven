@@ -1,5 +1,5 @@
 import { ContextMenu, Flex } from '@radix-ui/themes'
-import { useDontManageGetCall, useDontManagePostCall } from 'dontmanage-react-sdk'
+import { useDontManageGetCall, useDontManagePostCall } from 'frappe-react-sdk'
 import { TiArrowBackOutline } from 'react-icons/ti'
 import { Poll } from '../Renderers/PollMessage'
 import { Message } from '../../../../../../../types/Messaging/Message'

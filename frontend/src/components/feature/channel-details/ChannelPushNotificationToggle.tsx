@@ -3,7 +3,7 @@ import useIsPushNotificationEnabled from '@/hooks/fetchers/useIsPushNotification
 import { UserContext } from '@/utils/auth/UserProvider'
 
 import { Box, Flex, Switch, Text } from '@radix-ui/themes'
-import { useDontManagePostCall, useSWRConfig } from 'dontmanage-react-sdk'
+import { useDontManagePostCall, useSWRConfig } from 'frappe-react-sdk'
 import { useContext } from 'react'
 import { toast } from 'sonner'
 

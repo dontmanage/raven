@@ -1,6 +1,6 @@
 import { UserContext } from "@/utils/auth/UserProvider"
 import { UnreadCountData, useUpdateLastMessageInChannelList } from "@/utils/channel/ChannelListProvider"
-import { useDontManageGetCall, DontManageContext, DontManageConfig, useDontManageEventListener } from "dontmanage-react-sdk"
+import { useDontManageGetCall, DontManageContext, DontManageConfig, useDontManageEventListener } from "frappe-react-sdk"
 import { useContext, useEffect } from "react"
 import { useParams, useLocation } from "react-router-dom"
 

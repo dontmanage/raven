@@ -1,4 +1,4 @@
-import { useDontManageGetCall } from 'dontmanage-react-sdk'
+import { useDontManageGetCall } from 'frappe-react-sdk'
 import { RavenWorkspace } from '@/types/Raven/RavenWorkspace'
 
 export type WorkspaceFields = Pick<RavenWorkspace, 'name' | 'workspace_name' | 'logo' | 'type' | 'can_only_join_via_invite' | 'description'> & {

@@ -69,7 +69,7 @@ These are some of the tools it's built on:
 
 The frontend is built using React and the following tools:
 - [RadixUI](https://radix-ui.com)
-- [dontmanage-react-sdk](https://github.com/nikkothari22/dontmanage-react-sdk) - simple React hooks to interface with a DontManage framework backend - built and maintained by us at The Commit Company.
+- [frappe-react-sdk](https://github.com/nikkothari22/frappe-react-sdk) - simple React hooks to interface with a DontManage framework backend - built and maintained by us at The Commit Company.
 - [react-icons](https://react-icons.github.io)
 - [Tiptap](https://www.tiptap.dev)
 - [Tailwind CSS](https://tailwindcss.com/)

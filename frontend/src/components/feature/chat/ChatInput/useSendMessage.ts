@@ -1,4 +1,4 @@
-import { useDontManagePostCall } from 'dontmanage-react-sdk'
+import { useDontManagePostCall } from 'frappe-react-sdk'
 import { Message } from '../../../../../../types/Messaging/Message'
 
 export const useSendMessage = (channelID: string, noOfFiles: number, uploadFiles: () => Promise<void>, handleCancelReply: VoidFunction, selectedMessage?: Message | null) => {

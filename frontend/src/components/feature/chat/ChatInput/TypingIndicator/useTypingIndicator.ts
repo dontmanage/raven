@@ -1,4 +1,4 @@
-import { DontManageConfig, DontManageContext, useDontManageEventListener } from 'dontmanage-react-sdk'
+import { DontManageConfig, DontManageContext, useDontManageEventListener } from 'frappe-react-sdk'
 import { useCallback, useContext, useEffect, useRef, useState } from 'react'
 
 

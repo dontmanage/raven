@@ -1,4 +1,4 @@
-import { useDontManageCreateDoc, useDontManageGetCall, useSWRConfig } from 'dontmanage-react-sdk'
+import { useDontManageCreateDoc, useDontManageGetCall, useSWRConfig } from 'frappe-react-sdk'
 import { ChangeEvent, useCallback, useMemo, useState } from 'react'
 import { Controller, FormProvider, useForm } from 'react-hook-form'
 import { BiGlobe, BiHash, BiInfoCircle, BiLockAlt } from 'react-icons/bi'

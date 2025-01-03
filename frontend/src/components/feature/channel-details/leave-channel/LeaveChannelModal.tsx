@@ -1,4 +1,4 @@
-import { useDontManagePostCall } from 'dontmanage-react-sdk'
+import { useDontManagePostCall } from 'frappe-react-sdk'
 import { Fragment, useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ChannelListContext, ChannelListContextType, ChannelListItem } from '@/utils/channel/ChannelListProvider'

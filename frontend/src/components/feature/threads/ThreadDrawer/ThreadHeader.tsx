@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom"
 import { DropdownMenu, Flex, Heading, IconButton } from "@radix-ui/themes"
 import { BiBell, BiBellOff, BiDotsVerticalRounded, BiExit, BiTrash } from "react-icons/bi"
-import { useDontManageDeleteDoc, useDontManagePostCall, useSWRConfig } from "dontmanage-react-sdk"
+import { useDontManageDeleteDoc, useDontManagePostCall, useSWRConfig } from "frappe-react-sdk"
 import { toast } from "sonner"
 import { getErrorMessage } from "@/components/layout/AlertBanner/ErrorBanner"
 import { AiOutlineClose } from "react-icons/ai"

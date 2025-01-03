@@ -1,7 +1,7 @@
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"
 import { RavenSchedulerEvent } from "@/types/RavenIntegrations/RavenSchedulerEvent"
 import { Button } from "@radix-ui/themes"
-import { useDontManageDocTypeEventListener, useDontManageGetDocList } from "dontmanage-react-sdk"
+import { useDontManageDocTypeEventListener, useDontManageGetDocList } from "frappe-react-sdk"
 import { Link } from "react-router-dom"
 import { List } from "./ScheduledMessageList"
 import PageContainer from "@/components/layout/Settings/PageContainer"

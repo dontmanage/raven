@@ -4,7 +4,7 @@ import { useGetUser } from '@/hooks/useGetUser';
 import { useIsUserActive } from '@/hooks/useIsUserActive';
 import { Badge, Flex, HoverCard, Link, Text } from '@radix-ui/themes';
 import { NodeViewRendererProps, NodeViewWrapper } from "@tiptap/react";
-import { DontManageConfig, DontManageContext } from 'dontmanage-react-sdk';
+import { DontManageConfig, DontManageContext } from 'frappe-react-sdk';
 import { BsFillCircleFill } from 'react-icons/bs';
 import { toast } from 'sonner';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';

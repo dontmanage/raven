@@ -1,5 +1,5 @@
 import { RavenSettings } from "@/types/Raven/RavenSettings"
-import { useDontManageGetDoc } from "dontmanage-react-sdk"
+import { useDontManageGetDoc } from "frappe-react-sdk"
 
 const useRavenSettings = () => {
 

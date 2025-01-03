@@ -1,5 +1,5 @@
 import { getErrorMessage } from '@/components/layout/AlertBanner/ErrorBanner'
-import { useDontManageAuth, useSWRConfig } from 'dontmanage-react-sdk'
+import { useDontManageAuth, useSWRConfig } from 'frappe-react-sdk'
 import { FC, PropsWithChildren } from 'react'
 import { createContext } from 'react'
 import { toast } from 'sonner'

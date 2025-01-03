@@ -2,7 +2,7 @@ import { RavenMessageAction } from "@/types/RavenIntegrations/RavenMessageAction
 import { DIALOG_CONTENT_CLASS } from "@/utils/layout/dialog"
 import { Box, Button, Checkbox, Dialog, Select, Text, TextArea, TextField } from "@radix-ui/themes"
 import clsx from "clsx"
-import { useDontManageGetCall, useDontManageGetDoc, useDontManagePostCall } from "dontmanage-react-sdk"
+import { useDontManageGetCall, useDontManageGetDoc, useDontManagePostCall } from "frappe-react-sdk"
 import { Controller, FormProvider, useForm, useFormContext } from "react-hook-form"
 import { HStack, Stack } from "@/components/layout/Stack"
 import { RavenMessageActionFields } from "@/types/RavenIntegrations/RavenMessageActionFields"

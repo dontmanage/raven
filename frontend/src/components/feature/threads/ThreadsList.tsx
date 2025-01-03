@@ -1,6 +1,6 @@
 import { ThreadPreviewBox } from './ThreadPreviewBox'
 import { ThreadMessage } from './Threads'
-import { useDontManageGetCall } from 'dontmanage-react-sdk'
+import { useDontManageGetCall } from 'frappe-react-sdk'
 import { Flex } from '@radix-ui/themes'
 import { ErrorBanner } from '@/components/layout/AlertBanner/ErrorBanner'
 import { EmptyStateForThreads } from '@/components/layout/EmptyState/EmptyState'

@@ -9,7 +9,7 @@ import { HStack } from '@/components/layout/Stack'
 import { RavenAIFunction } from '@/types/RavenAI/RavenAIFunction'
 import { hasRavenAdminRole, isSystemManager } from '@/utils/roles'
 import { Badge, Button, Checkbox, Table, Text } from '@radix-ui/themes'
-import { useDontManageGetDocList } from 'dontmanage-react-sdk'
+import { useDontManageGetDocList } from 'frappe-react-sdk'
 import { LuSquareFunction } from 'react-icons/lu'
 import { Link } from 'react-router-dom'
 

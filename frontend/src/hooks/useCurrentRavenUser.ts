@@ -1,5 +1,5 @@
 import { RavenUser } from '@/types/Raven/RavenUser'
-import { useDontManageGetCall } from 'dontmanage-react-sdk'
+import { useDontManageGetCall } from 'frappe-react-sdk'
 
 const useCurrentRavenUser = () => {
 

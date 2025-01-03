@@ -2,7 +2,7 @@ import { TENOR_API_KEY, TENOR_CLIENT_KEY, TENOR_FEATURED_API_ENDPOINT_BASE } fro
 import { GIFGallerySkeleton } from "./GIFGallerySkeleton"
 import { useMemo } from "react";
 import { Button } from "@radix-ui/themes";
-import { useSWRInfinite } from "dontmanage-react-sdk";
+import { useSWRInfinite } from "frappe-react-sdk";
 
 
 export interface Props {

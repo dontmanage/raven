@@ -1,5 +1,5 @@
 import { UserContext } from '@/utils/auth/UserProvider'
-import { useDontManageEventListener, useDontManageGetCall, useSWRConfig } from 'dontmanage-react-sdk'
+import { useDontManageEventListener, useDontManageGetCall, useSWRConfig } from 'frappe-react-sdk'
 import { useContext } from 'react'
 import { useActiveState } from '../useActiveState'
 

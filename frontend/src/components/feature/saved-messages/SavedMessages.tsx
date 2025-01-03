@@ -1,4 +1,4 @@
-import { useDontManageGetCall } from "dontmanage-react-sdk"
+import { useDontManageGetCall } from "frappe-react-sdk"
 import { Link, useNavigate, useParams } from "react-router-dom"
 import { Message } from "../../../../../types/Messaging/Message"
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"

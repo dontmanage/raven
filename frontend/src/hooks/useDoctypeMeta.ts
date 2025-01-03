@@ -1,5 +1,5 @@
 import { DocType } from '@/types/Core/DocType'
-import { useDontManageGetCall } from 'dontmanage-react-sdk'
+import { useDontManageGetCall } from 'frappe-react-sdk'
 
 const useDoctypeMeta = (doctype: string) => {
     const { data, isLoading, mutate } = useDontManageGetCall<{ docs: DocType[] }>('dontmanage.desk.form.load.getdoctype', {

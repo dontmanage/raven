@@ -1,5 +1,5 @@
 import { BiCrown, BiSolidCrown } from 'react-icons/bi'
-import { useDontManageGetCall, useDontManageUpdateDoc } from 'dontmanage-react-sdk'
+import { useDontManageGetCall, useDontManageUpdateDoc } from 'frappe-react-sdk'
 import { toast } from 'sonner'
 import { getErrorMessage } from '@/components/layout/AlertBanner/ErrorBanner'
 import { Member } from '@/hooks/fetchers/useFetchChannelMembers'

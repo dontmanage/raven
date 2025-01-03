@@ -1,7 +1,7 @@
 import { Loader } from "@/components/common/Loader"
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"
 import { AlertDialog, Button, Callout, Checkbox, Flex, Text } from "@radix-ui/themes"
-import { useDontManageDeleteDoc } from "dontmanage-react-sdk"
+import { useDontManageDeleteDoc } from "frappe-react-sdk"
 import { useState } from "react"
 import { FiAlertTriangle } from "react-icons/fi"
 import { useNavigate } from "react-router-dom"

@@ -1,4 +1,4 @@
-import { useDontManagePostCall } from "dontmanage-react-sdk"
+import { useDontManagePostCall } from "frappe-react-sdk"
 import { useContext, useLayoutEffect, useMemo, useRef, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import { SidebarGroup, SidebarGroupItem, SidebarGroupLabel, SidebarGroupList, SidebarIcon, SidebarButtonItem } from "../../layout/Sidebar/SidebarComp"

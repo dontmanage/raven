@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
-import { DontManageContext, DontManageConfig, DontManageError } from "dontmanage-react-sdk";
+import { DontManageContext, DontManageConfig, DontManageError } from "frappe-react-sdk";
 import { Link } from "react-router-dom";
 import {
     Box,

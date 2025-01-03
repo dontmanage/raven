@@ -8,7 +8,7 @@ import { HStack } from '@/components/layout/Stack'
 import { RavenMessageAction } from '@/types/RavenIntegrations/RavenMessageAction'
 import { hasRavenAdminRole, isSystemManager } from '@/utils/roles'
 import { Badge, Button, Strong, Table } from '@radix-ui/themes'
-import { useDontManageGetDocList } from 'dontmanage-react-sdk'
+import { useDontManageGetDocList } from 'frappe-react-sdk'
 import { BiBoltCircle } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 

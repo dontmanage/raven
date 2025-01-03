@@ -1,6 +1,6 @@
 import { ContextMenu, Flex, Text } from '@radix-ui/themes'
 import { BiBoltCircle } from 'react-icons/bi'
-import { useDontManageGetDocList } from 'dontmanage-react-sdk'
+import { useDontManageGetDocList } from 'frappe-react-sdk'
 import { RavenMessageAction } from '@/types/RavenIntegrations/RavenMessageAction'
 import { useSetAtom } from 'jotai'
 import { messageActionAtom } from '@/components/feature/message-actions/MessageActionController'

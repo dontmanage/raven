@@ -6,7 +6,7 @@ import { useCurrentChannelData } from "@/hooks/useCurrentChannelData"
 import { useEffect } from "react"
 import { Box, Grid } from '@radix-ui/themes'
 import { Outlet, useLocation, useParams } from "react-router-dom"
-import { useSWRConfig } from "dontmanage-react-sdk"
+import { useSWRConfig } from "frappe-react-sdk"
 import { UnreadChannelCountItem, UnreadCountData } from "@/utils/channel/ChannelListProvider"
 import { useIsMobile } from "@/hooks/useMediaQuery"
 

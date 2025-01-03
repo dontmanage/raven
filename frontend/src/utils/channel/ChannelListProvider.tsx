@@ -1,8 +1,8 @@
-import { DontManageConfig, DontManageContext, DontManageError, useDontManageDocTypeEventListener, useDontManageGetCall } from 'dontmanage-react-sdk'
+import { DontManageConfig, DontManageContext, DontManageError, useDontManageDocTypeEventListener, useDontManageGetCall } from 'frappe-react-sdk'
 import { PropsWithChildren, createContext, useContext, useMemo } from 'react'
 import { KeyedMutator } from 'swr'
 import { RavenChannel } from '../../../../types/RavenChannelManagement/RavenChannel'
-import { useSWRConfig } from 'dontmanage-react-sdk'
+import { useSWRConfig } from 'frappe-react-sdk'
 import { toast } from 'sonner'
 import { getErrorMessage } from '@/components/layout/AlertBanner/ErrorBanner'
 

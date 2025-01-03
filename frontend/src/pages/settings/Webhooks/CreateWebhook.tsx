@@ -1,4 +1,4 @@
-import { useDontManageCreateDoc } from 'dontmanage-react-sdk'
+import { useDontManageCreateDoc } from 'frappe-react-sdk'
 import { FormProvider, useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import { Button } from '@radix-ui/themes'

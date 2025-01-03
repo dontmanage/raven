@@ -1,4 +1,4 @@
-import { DontManageProvider } from 'dontmanage-react-sdk'
+import { DontManageProvider } from 'frappe-react-sdk'
 import { Navigate, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import { MainPage } from './pages/MainPage'
 import { ProtectedRoute } from './utils/auth/ProtectedRoute'

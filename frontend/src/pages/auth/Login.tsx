@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { BiShow, BiHide, BiLogoGithub, BiLogoFacebookCircle, BiMailSend } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import { Box, Button, Flex, IconButton, Text, TextField, Link as LinkButton } from "@radix-ui/themes";
-import { DontManageError, useDontManageGetCall, useDontManageAuth, AuthResponse } from "dontmanage-react-sdk";
+import { DontManageError, useDontManageGetCall, useDontManageAuth, AuthResponse } from "frappe-react-sdk";
 import { Loader } from "@/components/common/Loader";
 import { ErrorText, Label } from "@/components/common/Form";
 import { LoginInputs, LoginContext } from "@/types/Auth/Login";

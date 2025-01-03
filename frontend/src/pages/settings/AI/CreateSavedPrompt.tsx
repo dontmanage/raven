@@ -6,7 +6,7 @@ import SettingsContentContainer from '@/components/layout/Settings/SettingsConte
 import SettingsPageHeader from '@/components/layout/Settings/SettingsPageHeader'
 import { RavenBotAIPrompt } from '@/types/RavenAI/RavenBotAIPrompt'
 import { Button } from '@radix-ui/themes'
-import { useDontManageCreateDoc } from 'dontmanage-react-sdk'
+import { useDontManageCreateDoc } from 'frappe-react-sdk'
 import { useEffect } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'

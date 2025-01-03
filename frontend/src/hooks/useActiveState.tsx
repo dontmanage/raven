@@ -1,6 +1,6 @@
 import { useContext, useEffect } from 'react'
 import { useIdleTimer, PresenceType } from 'react-idle-timer'
-import { DontManageContext, DontManageConfig } from 'dontmanage-react-sdk'
+import { DontManageContext, DontManageConfig } from 'frappe-react-sdk'
 import { useBoolean } from './useBoolean'
 import { toast } from 'sonner'
 

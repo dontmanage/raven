@@ -1,7 +1,7 @@
 import { DropdownMenu } from '@radix-ui/themes'
 import { BiLogOut } from 'react-icons/bi'
 import { WorkspaceFields } from '@/hooks/fetchers/useFetchWorkspaces'
-import { useDontManagePostCall, useSWRConfig } from 'dontmanage-react-sdk'
+import { useDontManagePostCall, useSWRConfig } from 'frappe-react-sdk'
 import { toast } from 'sonner'
 import { getErrorMessage } from '@/components/layout/AlertBanner/ErrorBanner'
 

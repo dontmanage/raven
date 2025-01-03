@@ -1,4 +1,4 @@
-import { useDontManageUpdateDoc } from "dontmanage-react-sdk"
+import { useDontManageUpdateDoc } from "frappe-react-sdk"
 import { Button, Flex, Text } from "@radix-ui/themes"
 import { Loader } from "@/components/common/Loader"
 import { toast } from "sonner"

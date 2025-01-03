@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Text, TextField, Link as LinkButton } from "@radix-ui/themes";
 import { useForm } from "react-hook-form";
-import { AuthResponse, DontManageError, OTPCredentials, useDontManageAuth } from "dontmanage-react-sdk";
+import { AuthResponse, DontManageError, OTPCredentials, useDontManageAuth } from "frappe-react-sdk";
 import { LoginInputs, VerificationType } from "@/types/Auth/Login";
 import { ErrorText } from "@/components/common/Form";
 import { Loader } from "@/components/common/Loader";

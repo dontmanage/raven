@@ -1,6 +1,6 @@
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"
 import { AlertDialog, Button, DropdownMenu, Flex, IconButton, Text } from "@radix-ui/themes"
-import { DontManageDoc, useDontManageUpdateDoc } from "dontmanage-react-sdk"
+import { DontManageDoc, useDontManageUpdateDoc } from "frappe-react-sdk"
 import { FieldValues, FormProvider, useForm } from "react-hook-form"
 import { KeyedMutator } from 'swr'
 import { BiDotsVerticalRounded } from "react-icons/bi"

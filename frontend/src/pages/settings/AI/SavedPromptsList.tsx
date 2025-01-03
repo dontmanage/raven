@@ -10,7 +10,7 @@ import { RavenBotAIPrompt } from '@/types/RavenAI/RavenBotAIPrompt'
 import { getKeyboardMetaKeyString } from '@/utils/layout/keyboardKey'
 import { hasRavenAdminRole, isSystemManager } from '@/utils/roles'
 import { Badge, Button, Checkbox, Kbd, Table, Text } from '@radix-ui/themes'
-import { useDontManageGetDocList } from 'dontmanage-react-sdk'
+import { useDontManageGetDocList } from 'frappe-react-sdk'
 import { BiSolidMagicWand } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 

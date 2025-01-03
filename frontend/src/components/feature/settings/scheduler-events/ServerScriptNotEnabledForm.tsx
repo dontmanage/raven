@@ -1,7 +1,7 @@
 import { BiInfoCircle } from "react-icons/bi"
 import { Link as RadixLink, Text } from "@radix-ui/themes"
 import { CustomCallout } from "@/components/common/Callouts/CustomCallout"
-import { useDontManageGetCall } from "dontmanage-react-sdk"
+import { useDontManageGetCall } from "frappe-react-sdk"
 
 const ServerScriptNotEnabledCallout = () => {
 

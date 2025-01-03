@@ -1,7 +1,7 @@
 import { ErrorBanner } from '@/components/layout/AlertBanner/ErrorBanner'
 import { Fragment, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useDontManageDeleteDoc, useSWRConfig } from 'dontmanage-react-sdk'
+import { useDontManageDeleteDoc, useSWRConfig } from 'frappe-react-sdk'
 import { ChannelListItem } from '@/utils/channel/ChannelListProvider'
 import { AlertDialog, Button, Callout, Checkbox, Dialog, Flex, Text } from '@radix-ui/themes'
 import { Loader } from '@/components/common/Loader'

@@ -1,4 +1,4 @@
-import { useDontManageUpdateDoc } from "dontmanage-react-sdk"
+import { useDontManageUpdateDoc } from "frappe-react-sdk"
 import { Suspense, lazy, useEffect } from "react"
 import { ErrorBanner } from "../../../../layout/AlertBanner/ErrorBanner"
 import { IconButton, Dialog, Flex, Text } from "@radix-ui/themes"

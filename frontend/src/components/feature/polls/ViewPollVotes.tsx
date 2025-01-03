@@ -1,4 +1,4 @@
-import { useDontManageGetCall } from 'dontmanage-react-sdk'
+import { useDontManageGetCall } from 'frappe-react-sdk'
 import { Poll } from '../chat/ChatMessage/Renderers/PollMessage'
 import { useState } from 'react'
 import { Button, Dialog, Flex, Separator, Text } from '@radix-ui/themes'

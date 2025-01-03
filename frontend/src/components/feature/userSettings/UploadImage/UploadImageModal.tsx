@@ -4,7 +4,7 @@ import { Button, Dialog, Flex } from "@radix-ui/themes"
 import { CustomFile } from "../../file-upload/FileDrop"
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"
 import { useState } from "react"
-import { DontManageError, useDontManageFileUpload } from "dontmanage-react-sdk"
+import { DontManageError, useDontManageFileUpload } from "frappe-react-sdk"
 import { FileUploadBox } from "./FileUploadBox"
 import { __ } from "@/utils/translations"
 

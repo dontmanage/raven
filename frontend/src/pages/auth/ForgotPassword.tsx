@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
-import { DontManageError, useDontManagePostCall } from "dontmanage-react-sdk";
+import { DontManageError, useDontManagePostCall } from "frappe-react-sdk";
 import {
     Box,
     Button,

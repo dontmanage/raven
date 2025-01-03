@@ -1,7 +1,7 @@
 import { CustomFile } from '@/components/feature/file-upload/FileDrop'
 import { useContext, useRef, useState } from 'react'
 import { Message } from '../../../../../../../types/Messaging/Message'
-import { DontManageConfig, DontManageContext } from 'dontmanage-react-sdk'
+import { DontManageConfig, DontManageContext } from 'frappe-react-sdk'
 
 
 export const fileExt = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG', 'gif', 'GIF']

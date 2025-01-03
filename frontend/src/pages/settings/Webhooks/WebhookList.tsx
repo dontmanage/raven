@@ -8,7 +8,7 @@ import SettingsPageHeader from "@/components/layout/Settings/SettingsPageHeader"
 import { RavenWebhook } from "@/types/RavenIntegrations/RavenWebhook"
 import { isSystemManager } from "@/utils/roles"
 import { Flex, Button } from "@radix-ui/themes"
-import { useDontManageDocTypeEventListener, useDontManageGetDocList } from "dontmanage-react-sdk"
+import { useDontManageDocTypeEventListener, useDontManageGetDocList } from "frappe-react-sdk"
 import { LuWebhook } from "react-icons/lu"
 import { Link } from "react-router-dom"
 

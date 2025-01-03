@@ -1,4 +1,4 @@
-import { DontManageError } from 'dontmanage-react-sdk'
+import { DontManageError } from 'frappe-react-sdk'
 import { useMemo } from 'react'
 import React from 'react'
 import { ErrorCallout } from "@/components/common/Callouts/ErrorCallouts"

@@ -1,6 +1,6 @@
 import { useDoctypePreview } from "@/hooks/useDoctypePreview"
 import { AspectRatio, Badge, DataList, DropdownMenu, Flex, Heading, IconButton, Skeleton, Tooltip } from "@radix-ui/themes"
-import { DontManageConfig, DontManageContext, useDontManageGetCall } from "dontmanage-react-sdk"
+import { DontManageConfig, DontManageContext, useDontManageGetCall } from "frappe-react-sdk"
 import { useContext, useMemo, useState } from "react"
 import { Grid, Text, Box, Card } from "@radix-ui/themes"
 import { toast } from "sonner"

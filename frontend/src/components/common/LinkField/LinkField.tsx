@@ -1,7 +1,7 @@
 
 
 import { useCombobox } from "downshift";
-import { Filter, SearchResult, useSearch } from "dontmanage-react-sdk";
+import { Filter, SearchResult, useSearch } from "frappe-react-sdk";
 import { useState } from "react";
 import { Label } from "../Form";
 import { Text, TextField, VisuallyHidden } from "@radix-ui/themes";

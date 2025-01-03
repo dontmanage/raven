@@ -9,7 +9,7 @@ import { BiTrash } from "react-icons/bi"
 import { useNavigate } from "react-router-dom"
 import { AlertContent } from "../../settings/common/DeleteAlert"
 import { toast } from "sonner"
-import { useDontManageDeleteDoc } from "dontmanage-react-sdk"
+import { useDontManageDeleteDoc } from "frappe-react-sdk"
 import { AiOutlineEdit } from "react-icons/ai"
 
 export const WebhookItem = ({ webhook, mutate }: { webhook: RavenWebhook, mutate: () => void }) => {

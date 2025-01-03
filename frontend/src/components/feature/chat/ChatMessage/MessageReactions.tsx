@@ -1,4 +1,4 @@
-import { useDontManagePostCall } from "dontmanage-react-sdk"
+import { useDontManagePostCall } from "frappe-react-sdk"
 import { useCallback, useContext, useMemo, useState } from "react"
 import { UserContext } from "../../../../utils/auth/UserProvider"
 import { getUsers } from "../../../../utils/operations"

@@ -1,4 +1,4 @@
-import { useDontManageUpdateDoc, useSWRConfig } from 'dontmanage-react-sdk'
+import { useDontManageUpdateDoc, useSWRConfig } from 'frappe-react-sdk'
 import { ErrorBanner } from '@/components/layout/AlertBanner/ErrorBanner'
 import { ChannelListItem } from '@/utils/channel/ChannelListProvider'
 import { Button, Dialog, Flex, Text } from '@radix-ui/themes'

@@ -10,7 +10,7 @@ import { ChannelWithUnreadCount, DMChannelWithUnreadCount } from "@/components/l
 import clsx from "clsx";
 import { UnreadCountData } from "@/utils/channel/ChannelListProvider";
 import { BiDotsVerticalRounded } from "react-icons/bi";
-import { useDontManagePostCall, useSWRConfig } from "dontmanage-react-sdk";
+import { useDontManagePostCall, useSWRConfig } from "frappe-react-sdk";
 import { toast } from "sonner";
 
 interface UnreadListProps {

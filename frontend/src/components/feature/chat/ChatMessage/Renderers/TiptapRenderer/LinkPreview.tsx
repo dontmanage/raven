@@ -1,7 +1,7 @@
 import { Stack } from '@/components/layout/Stack';
 import { Box, Card, IconButton, Text, Tooltip } from '@radix-ui/themes';
 import { useCurrentEditor } from "@tiptap/react";
-import { useDontManageGetCall, useDontManagePostCall } from 'dontmanage-react-sdk';
+import { useDontManageGetCall, useDontManagePostCall } from 'frappe-react-sdk';
 import { memo, useMemo } from 'react';
 import { BiX } from 'react-icons/bi';
 

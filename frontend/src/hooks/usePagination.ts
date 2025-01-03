@@ -1,4 +1,4 @@
-import { useDontManageGetDocCount, Filter } from "dontmanage-react-sdk"
+import { useDontManageGetDocCount, Filter } from "frappe-react-sdk"
 import { useSearchParams } from "react-router-dom"
 
 export interface DoctypePaginationHookReturnType extends PaginationHookReturnType {

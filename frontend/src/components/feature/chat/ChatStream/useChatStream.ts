@@ -1,4 +1,4 @@
-import { useDontManageDocumentEventListener, useDontManageEventListener, useDontManageGetCall, useDontManagePostCall } from 'dontmanage-react-sdk'
+import { useDontManageDocumentEventListener, useDontManageEventListener, useDontManageGetCall, useDontManagePostCall } from 'frappe-react-sdk'
 import { MutableRefObject, useContext, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useBeforeUnload, useLocation, useNavigate } from 'react-router-dom'
 import { Message } from '../../../../../../types/Messaging/Message'

@@ -1,4 +1,4 @@
-import { useDontManagePostCall } from 'dontmanage-react-sdk'
+import { useDontManagePostCall } from 'frappe-react-sdk'
 import { toast } from 'sonner'
 import { QuickActionButton } from './QuickActionButton'
 import { BiMessageDetail } from 'react-icons/bi'

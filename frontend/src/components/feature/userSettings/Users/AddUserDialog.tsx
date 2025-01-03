@@ -5,7 +5,7 @@ import { HStack, Stack } from "@/components/layout/Stack"
 import { DIALOG_CONTENT_CLASS } from "@/utils/layout/dialog"
 import { UserListContext } from "@/utils/users/UserListProvider"
 import { Box, Button, Dialog, Text, TextField } from "@radix-ui/themes"
-import { DontManageConfig, DontManageContext, useDontManagePostCall } from "dontmanage-react-sdk"
+import { DontManageConfig, DontManageContext, useDontManagePostCall } from "frappe-react-sdk"
 import { useContext, useState } from "react"
 import { useForm } from "react-hook-form"
 

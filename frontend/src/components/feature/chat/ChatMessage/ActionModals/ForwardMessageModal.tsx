@@ -9,7 +9,7 @@ import { toast } from "sonner"
 import UsersOrChannelsDropdown from "@/components/feature/selectDropdowns/UsersOrChannelsDropdown"
 import { ErrorText } from "@/components/common/Form"
 import { Loader } from "@/components/common/Loader"
-import { useDontManagePostCall } from "dontmanage-react-sdk"
+import { useDontManagePostCall } from "frappe-react-sdk"
 import { ErrorBanner } from "@/components/layout/AlertBanner/ErrorBanner"
 
 interface ForwardMessageModalProps {
