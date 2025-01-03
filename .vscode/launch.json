@@ -1,0 +1,88 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Bench Web",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/dontmanage-bench/apps/dontmanage/dontmanage/utils/bench_helper.py",
+            "args": [
+                "dontmanage",
+                "serve",
+                "--port",
+                "8000",
+                "--noreload",
+                "--nothreading"
+            ],
+            "cwd": "${workspaceFolder}/dontmanage-bench/sites",
+            "env": {
+                "DEV_SERVER": "1"
+            }
+        },
+        {
+            "name": "Bench Default Worker",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/dontmanage-bench/apps/dontmanage/dontmanage/utils/bench_helper.py",
+            "args": [
+                "dontmanage",
+                "worker",
+                "--queue",
+                "default"
+            ],
+            "cwd": "${workspaceFolder}/dontmanage-bench/sites",
+            "env": {
+                "DEV_SERVER": "1"
+            }
+        },
+        {
+            "name": "Bench Short Worker",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/dontmanage-bench/apps/dontmanage/dontmanage/utils/bench_helper.py",
+            "args": [
+                "dontmanage",
+                "worker",
+                "--queue",
+                "short"
+            ],
+            "cwd": "${workspaceFolder}/dontmanage-bench/sites",
+            "env": {
+                "DEV_SERVER": "1"
+            }
+        },
+        {
+            "name": "Bench Long Worker",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/dontmanage-bench/apps/dontmanage/dontmanage/utils/bench_helper.py",
+            "args": [
+                "dontmanage",
+                "worker",
+                "--queue",
+                "long"
+            ],
+            "cwd": "${workspaceFolder}/dontmanage-bench/sites",
+            "env": {
+                "DEV_SERVER": "1"
+            }
+        },
+        {
+            "name": "Honcho SocketIO Watch Schedule Worker",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/dontmanage/.local/bin/honcho",
+            "cwd": "${workspaceFolder}/dontmanage-bench",
+            "console": "internalConsole",
+            "args": [
+                "start",
+                "socketio",
+                "watch",
+                "schedule",
+                "worker_short",
+                "worker_long",
+                "worker_default"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+node_modules
+
+dist/
+mobile/dev-dist
+raven/public/raven
+raven/public/node_modules
+raven/www/raven.html
+*.env
+
+apps/mobile/ios
+apps/mobile/android
+apps/mobile/.expo
